@@ -44,7 +44,7 @@ export default function Page() {
             <h3 className="text-xl">Projects</h3>
             <ButtonOfList name="Personal Website" link="https://micaelrobert.vercel.app" />
             <ButtonOfList name="EventHub" link="https://github.com/micaelrobert/EventHub_InMemory" />
-            <ButtonOfList name="Backend" link="https://github.com/micaelrobert/Back_EventHub" />
+            <ButtonOfList name="EventHub .NET" link="https://github.com/micaelrobert/Back_EventHub" />
           </div>
 
           <div className="flex flex-col gap-4 items-center">
