@@ -38,7 +38,7 @@ Estudante de **Engenharia de Software** na **Fundação Educacional Severino Som
 
 
 
-**Tech Stack:** Python, C#, C++, TypeScript, Next.js, Angular, PostgreSQL, MySQL, MongoDB
+**Tech Stack:** Python, C#, C++, TypeScript, JavaScript, Next.js, Angular, PostgreSQL, MySQL, MongoDB
 
 
 
