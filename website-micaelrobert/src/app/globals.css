@@ -23,7 +23,23 @@ body {
   100% {
     background-position: 20px 20px;
   }
+
 }
+@keyframes gradiant-animation{
+  0%{background-position:0% 50%}
+
+  50%{background-position:100% 50%}
+
+  100%{background-position:0% 50%}
+
+
+}
+
+ .animate-gradient{
+    background-size:200% 200%;
+    animation: gradiant-animation 2.1s ease infinite;
+  }
+
 
 @layer base {
   :root {

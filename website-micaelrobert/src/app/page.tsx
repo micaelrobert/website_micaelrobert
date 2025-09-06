@@ -22,7 +22,7 @@ export default function Home() {
       <AnimatedBackground />
 
       <div className="container mx-auto px-4">
-        <section className="flex flex-col justify-center text-center h-[100vh]">
+        <section className="flex flex-col justify-center text-center min-h-[90vh] lg:h-[100vh] -mt-10 lg:-mt-8">
           {/* Header */}
           <div className="flex flex-row mx-auto gap-4 mb-4 items-center">
             <Image
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Títulos principais */}
+          {/* main titles */}
           <div className="space-y-4 text-white">
             <div className="flex flex-row justify-center items-center gap-4">
               <TitleColored className="bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text">
@@ -66,7 +66,9 @@ export default function Home() {
                 FULLSTACK
               </TitleColored>
               <Link href="/links">
-                <button className="ml-2 px-4 py-2 text-sm sm:text-base rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-md transition transform hover:scale-105 hover:shadow-lg">
+                <button className="ml-2 px-4 py-2 text-sm sm:text-base rounded-full bg-gradient-to-r from-blue-600 
+                to-purple-600 via-purple-600 to-pink-600 animate-gradient text-white shadow-md transition transform 
+                hover:scale-105 hover:shadow-lg active:scale-95 ">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
                     /links
@@ -77,7 +79,7 @@ export default function Home() {
 
             <div className="flex flex-row justify-center items-center gap-4">
               <div className="text-xs sm:text-base text-left">
-                // Next, Angular, C#,
+                // Next, Typecript, C#,
                 <br />
                 Python and more!
               </div>
@@ -87,7 +89,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Subtítulo */}
+          {/* subtitles*/}
           <h2 className="text-base sm:text-3xl font-semibold mt-8 mx-auto text-center w-3/4 text-white">
             Creating software that enhances your experience with{" "}
             <span className="bg-gradient-to-r from-cyan-500 to-blue-400 text-transparent bg-clip-text">
@@ -103,6 +105,7 @@ export default function Home() {
             </span>
             .
           </h2>
+          
 
           {/* Social buttons */}
           <div className="flex justify-center gap-3 mt-6">
@@ -125,18 +128,19 @@ export default function Home() {
             ))}
           </div>
         </section>
+        
 
-        {/* PROJETOS */}
+        {/* PROJECTS */}
         <section className="lg:h-[90vh] mx-4 mb-16">
           <h2 className="text-2xl sm:text-4xl font-semibold mb-8 text-white">
             My Projects on GitHub
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:mx-16">
+            <Project url="micaelrobert/ExploraSaqua" />
+            <Project url="micaelrobert/seraphineplay" />
             <Project url="micaelrobert/EventHub_InMemory" />
-            <Project url="micaelrobert/Back_EventHub" />
+            <Project url="micaelrobert/newapp_form" />
             <Project url="micaelrobert/algoritimos" />
-            <Project url="micaelrobert/backend" />
-            <Project url="micaelrobert/micaelrobert" />
             <Project url="micaelrobert/website_micaelrobert" />
           </div>
         </section>
