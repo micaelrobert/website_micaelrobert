@@ -45,7 +45,7 @@
         }
 
         .contact-info p a {
-            color: #333; /* ALTERADO: Cor preta para os links */
+            color: #333; 
             text-decoration: none;
             margin-left: 5px;
         }
@@ -54,12 +54,11 @@
             text-decoration: underline;
         }
 
-        /* Estilo para os ícones de contato */
         .contact-info iconify-icon {
             font-size: 1.2em;
             margin-right: 5px;
             vertical-align: middle;
-            color: #000; /* Ícones de contato também pretos */
+            color: #000; 
         }
 
         h2 {
@@ -116,7 +115,6 @@
             color: #444;
         }
 
-        /* Estilo para a seção de Habilidades */
         .skills-category {
             margin-bottom: 15px;
             display: flex;
@@ -130,7 +128,6 @@
             white-space: nowrap;
         }
 
-        /* Estilo para os ícones de habilidades de programação */
         .programming-language-icons iconify-icon {
             font-size: 1.1em;
             vertical-align: middle;
@@ -138,7 +135,6 @@
             margin-left: 5px;
         }
 
-        /* Cores dos ícones para simular os originais, se possível */
         .programming-language-icons iconify-icon[icon*="python"] { color: #306998; }
         .programming-language-icons iconify-icon[icon*="csharp"] { color: #68217A; }
         .programming-language-icons iconify-icon[icon*="cplusplus"] { color: #00599C; }
@@ -146,7 +142,6 @@
         .programming-language-icons iconify-icon[icon*="html"] { color: #E34F26; }
         .programming-language-icons iconify-icon[icon*="css"] { color: #1572B6; }
 
-        /* Impressão: Remover cabeçalhos/rodapés e garantir quebras de página */
         @media print {
             body {
                 margin: 0;
@@ -216,6 +211,7 @@
 <div class="skills-category">
     <strong>Linguagens de Programação:</strong>
     <span class="programming-language-icons">
+        <iconify-icon icon="devicon:javascript"></iconify-icon> JavaScript,
         <iconify-icon icon="devicon:python"></iconify-icon> Python,
         <iconify-icon icon="devicon:csharp"></iconify-icon> C#,
         <iconify-icon icon="devicon:cplusplus"></iconify-icon> C++,
@@ -226,11 +222,11 @@
 </div>
 
 <div class="skills-category">
-    <strong>Front-end:</strong> Next.js, Angular
+    <strong>Front-end:</strong> React, Next.js, Angular
 </div>
 
 <div class="skills-category">
-    <strong>Bancos de Dados:</strong> PostgreSQL, MySQL, MongoDB
+    <strong>Bancos de Dados:</strong> PostgreSQL, MySQL, MongoDB, Firebase
 </div>
 
 <div class="skills-category">
@@ -238,7 +234,7 @@
 </div>
 
 <div class="skills-category">
-    <strong>Idiomas:</strong> Inglês (Avançado), Português (Nativo)
+    <strong>Idiomas:</strong> Inglês (Intermediário)
 </div>
 
 <hr>
